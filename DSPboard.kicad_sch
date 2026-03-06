@@ -2,9 +2,93 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid ee8026cd-c8f1-4ab8-b3ed-795cda0e45f2)
+	(uuid "ee8026cd-c8f1-4ab8-b3ed-795cda0e45f2")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 29.21 69.85)
+		(size 53.34 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "092cc8b7-a129-4207-bb1f-5cf14080b157")
+		(property "Sheetname" "Power"
+			(at 29.21 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 29.21 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DSPboard"
+				(path "/ee8026cd-c8f1-4ab8-b3ed-795cda0e45f2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 29.21)
+		(size 74.93 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6b060f3-97d3-40e5-9227-1b45044e513e")
+		(property "Sheetname" "uC&Codec"
+			(at 29.21 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main.kicad_sch"
+			(at 29.21 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DSPboard"
+				(path "/ee8026cd-c8f1-4ab8-b3ed-795cda0e45f2"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
