@@ -420,6 +420,10 @@
     [
       "092cc8b7-a129-4207-bb1f-5cf14080b157",
       "Power"
+    ],
+    [
+      "b0d28cc3-ef70-4b40-ae3e-ad3f3c6b0382",
+      "AudioFront"
     ]
   ],
   "text_variables": {}

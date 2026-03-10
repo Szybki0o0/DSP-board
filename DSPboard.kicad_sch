@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 26.67 110.49)
+		(size 55.88 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0d28cc3-ef70-4b40-ae3e-ad3f3c6b0382")
+		(property "Sheetname" "AudioFront"
+			(at 26.67 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AudioFront.kicad_sch"
+			(at 26.67 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DSPboard"
+				(path "/ee8026cd-c8f1-4ab8-b3ed-795cda0e45f2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 29.21 29.21)
 		(size 74.93 27.94)
 		(exclude_from_sim no)
