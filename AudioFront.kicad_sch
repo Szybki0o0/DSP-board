@@ -1675,6 +1675,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 115.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54f8efaa-b3f7-497a-8501-6e202694aef1")
+		(property "Reference" "R6"
+			(at 118.11 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEST"
+			(at 118.11 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.792 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1690934-c738-4de0-8ba5-a75d444d7e75")
+		)
+		(pin "1"
+			(uuid "3efd2e31-72ea-4945-b90c-b42ac8bb0e4c")
+		)
+		(instances
+			(project "DSPboard"
+				(path "/ee8026cd-c8f1-4ab8-b3ed-795cda0e45f2/b0d28cc3-ef70-4b40-ae3e-ad3f3c6b0382"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TLV9062")
 		(at 170.18 73.66 0)
 		(unit 1)
